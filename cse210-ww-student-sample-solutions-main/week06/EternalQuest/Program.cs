@@ -18,7 +18,7 @@ public class GoalsTracker
     {
         string fileName = "";
         Console.Write("What is the filename? ");
-        fileName = Console.ReadLine();
+         fileName = Console.ReadLine();
 
         using (StreamWriter outputFile = new StreamWriter(fileName))
         {
