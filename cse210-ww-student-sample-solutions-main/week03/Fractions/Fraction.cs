@@ -15,7 +15,7 @@ public class Fraction
     public Fraction(int wholeNumber)
     {
         _top = wholeNumber;
-        _bottom = 1;
+     _bottom = 1;
     }
 
     public Fraction(int top, int bottom)
